@@ -79,5 +79,5 @@ class CountdownTimer{
 
 new CountdownTimer(...Object.values({
   selector: '#timer-1',
-  targetDate: new Date('Jun 22, 2020'),
+  targetDate: new Date('Jun 24, 2020'),
 }));
