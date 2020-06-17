@@ -45,7 +45,6 @@ class CountdownTimer{
       mins: document.querySelector('span[data-value="mins"]'),
       secs: document.querySelector('span[data-value="secs"]'),
     }
-    this.reverseTimer();
   }
 
   addSymbol(value){
@@ -73,9 +72,8 @@ class CountdownTimer{
 
   updateTimer(){
     if((this.targetDate - Date.now()) < 1){
-      this.selector.innerText = '!Day!'; 
-    }
-  
+      this.selector.innerText = '!The time has come!'; 
+    }  
   } 
 }
 
