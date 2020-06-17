@@ -71,8 +71,6 @@ class CountdownTimer{
     this.refreshClock(timeToWait);
   }, 1000);
 
-
-
   updateTimer(){
     if((this.targetDate - Date.now()) < 1){
       this.selector.innerText = '!Day!'; 
@@ -83,5 +81,5 @@ class CountdownTimer{
 
 new CountdownTimer(...Object.values({
   selector: '#timer-1',
-  targetDate: new Date('Jun 17, 2020'),
+  targetDate: new Date('Jun 22, 2020'),
 }));
